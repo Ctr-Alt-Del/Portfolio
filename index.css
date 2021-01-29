@@ -8,6 +8,10 @@ body {
     overflow: scroll;
 }
 
+a{
+    color: black;
+}
+
 body::-webkit-scrollbar{
     display: none;
 }
@@ -256,4 +260,30 @@ input[type=text]:focus {
 .inlined{
     display: inline-block;
     font-size: 30px;
+}
+
+.projects{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects:hover{
+    box-shadow: 0 0px 30px 5px rgb(3, 154, 255); 
+}
+
+.links{
+    color: black;
+}
+
+
+.links:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.position{
+    height: 200px;
+    width: 300px;
 }
