@@ -26,7 +26,8 @@ body, html{
     background-color: black;
     background-image: url("Weird.gif");
     background-attachment: fixed;
-    background-position: top;
+    background-position-y: 50%;
+    background-position-x: 50%;
     background-repeat: no-repeat;
     background-size:75%;
     height: 100%;
@@ -36,13 +37,24 @@ body, html{
     background-color: black;
     background-image: url("Weird.gif");
     background-attachment: fixed;
-    background-position: top;
+    background-position-y: 50%;
+    background-position-x: 50%;
     background-repeat: no-repeat;
     background-size:75%;
 }
 
+.nAme{
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .namE{
-    margin-top: 35%;
+    
     color: rgb(3, 154, 255);
     border-radius: 30px;
     box-shadow: 0 0 10px 4px rgb(3, 154, 255); 
@@ -54,6 +66,7 @@ body, html{
     align-items: center;
     display: inline-block;
     height: 100%;
+    
 }
 
 .tip{
@@ -192,12 +205,6 @@ input[type=text]:focus {
   .parallax {
     height: 100%;
   }
-}
-
-.nAme{
-    width: 100%;
-    text-align: center;
-    background-attachment: fixed;
 }
 
 .head{
