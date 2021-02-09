@@ -15,9 +15,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
 </head>
 <div class="parallax1" id="HomeSection">
+    <div class="parallax"></div>
     <div class="nAme">
         <h1 class="namE">Leigh-Jean Rustin</h1>
         <h1 class="tip">Scroll Down</h1>
@@ -27,7 +27,7 @@
 <div class="parallax2">
     <div class="header">
         <h1 class="head">Portfolio</h1>
-        <div class="line1"></div>
+        <div class="line1" style="z-index: 1;"></div>
     </div>
     <div class="sidenav">
         <p class="logo" onClick>LR</p>
@@ -155,37 +155,30 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="projects">
-                        <a class="links" href="https://lj-chat-aplication.herokuapp.com/">
-                            <img class="position" src="ChatApp.png">
-                            <h1>Chat App</h1>
-                        </a>
+                        <img class="position" src="text.png">
                     </div>
+                    <a class="proTitles" href="https://lj-chat-aplication.herokuapp.com/">Chat App</a>
                 </div>
                 <div class="col-sm-3">
                     <div class="projects">
-                        <a class="links" href="http://weather-hub.herokuapp.com/">
-                            <img class="position" src="rain.gif">
-                            <h1>Weather App</h1>
-                        </a>
+                        <img class="position" src="sunny.png">
                     </div>
+                    <a class="proTitles" href="http://weather-hub.herokuapp.com/">Weather App</a>
                 </div>
                 <div class="col-sm-3">
                     <div class="projects">
-                        <a class="links" href="https://x-and-o-app.herokuapp.com/">
-                            <img class="position" src="TicTacToe.png">
-                            <h1>Rock, Paper, Scissors</h1>
-                        </a>
+                        <img class="position" src="tictactoe2.png">
                     </div>
+                    <a class="proTitles" href="https://x-and-o-app.herokuapp.com/">Tic Tac Toe</a>
                 </div>
                 <div class="col-sm-3">
                     <div class="projects">
-                        <a class="links" href="https://app-of-lj.herokuapp.com/">
-                            <img class="position" src="rps.gif">
-                            <h1>Rock, Paper, Scissors</h1>
-                        </a>
+                        <img class="position" src="rps2.png">
                     </div>
+                    <a class="proTitles" href="https://app-of-lj.herokuapp.com/">Rock, Paper, Scissors</a>
                 </div>
             </div>
+            <br/>
         </div>
         <br>
         <div class="contact" id="ContactSection">
@@ -242,6 +235,11 @@
         <br>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+<script src="index.js"></script>
 </body>
 
 </html>

@@ -22,9 +22,20 @@ body, html{
     scroll-behavior: smooth;
 }
 
+.parallax{
+    background-image: url("Weird.gif");
+    background-attachment: fixed;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size:75%;
+    height: 100%;
+    opacity: 0;
+}
+
+
 .parallax1 {
     background-color: black;
-    background-image: url("Weird.gif");
     background-attachment: fixed;
     background-position-y: 50%;
     background-position-x: 50%;
@@ -50,7 +61,8 @@ body, html{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
+    cursor: default;
 }
 
 .namE{
@@ -140,11 +152,10 @@ body, html{
 .projects{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
 }
 
 .logo{
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     background-color: rgb(3, 154, 255);
     font-size: 30px;
@@ -153,6 +164,7 @@ body, html{
     padding-left: 5px;
     padding-top: 5px;
     margin-left: 9px;
+    box-shadow: 0 0px 7px rgba(3, 154, 255);
 }
 
 input{
@@ -254,10 +266,6 @@ input[type=text]:focus {
 
 .linkedSocials:hover{
     border-style: solid;
-    border-color: rgb(3, 154, 255);
-    background-color: rgba(3, 154, 255, 0.179);
-    box-shadow: 0 0px 7px 0 rgba(3, 154, 255);
-    /* background-color: black; */
 }
 
 .linkedSocials:hover{
@@ -269,16 +277,6 @@ input[type=text]:focus {
     font-size: 30px;
 }
 
-.projects{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.projects:hover{
-    box-shadow: 0 0px 30px 5px rgb(3, 154, 255); 
-}
 
 .links{
     color: black;
@@ -290,7 +288,70 @@ input[type=text]:focus {
     text-decoration: none;
 }
 
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    border-radius: 50%;
+    width: auto;
+}
+
+.projects:hover{
+    border: 5px solid rgb(30, 165, 255);
+    background: linear-gradient( to top right, rgb(3, 154, 255), rgb(203, 229, 255));
+}
+
 .position{
     height: 200px;
-    width: 300px;
+    width: 200px;
+    /* transition: height .5s ease-out; */
+}
+
+.position:hover{
+    /* height: 300px; */
+    animation: pop .2s linear;
+    transform: scale(1.3, 1.3) rotate(-20deg);
+    /* transition: height .5s ease; */
+}
+
+@keyframes pop{
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(1.3, 1.3)rotate(-20deg);
+    }
+}
+
+.proTitles{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    background: linear-gradient( to right, rgb(3, 154, 255), rgb(203, 229, 255));
+    border-radius: 20px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.proTitles:hover{
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0px 10px 3px rgb(3, 154, 255); 
+
+}
+
+.proTitles a{
+    text-decoration: none;
+    color: black;
+}
+
+.proTitles:active{
+    text-decoration: none;
+    color: black;
 }
