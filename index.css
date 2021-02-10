@@ -385,10 +385,10 @@ input[type=text]:focus {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: white;
+        background-color: rgb(204, 204, 204);
         overflow-x: hidden;
         padding-top: 20px;
-        opacity: 0.8;  
+        opacity: 1;  
     }
     .fa-home{
         font-size: 70px !important;
