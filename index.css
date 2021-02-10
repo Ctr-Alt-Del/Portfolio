@@ -1,11 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Rokkitt', serif;
     margin: 0%;
     font-size: 10px;
     overflow: scroll;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif!important;    
+}
+
+h2{
+    font-family: 'Comfortaa', cursive!important;
+}
+
+h3{
+    font-family: 'Comfortaa', cursive!important;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif!important;  
 }
 
 a{
@@ -29,7 +45,7 @@ body, html{
     background-position-x: 50%;
     background-repeat: no-repeat;
     background-size:75%;
-    height: 100%;
+    height: 98%;
     opacity: 0;
 }
 
@@ -272,6 +288,12 @@ input[type=text]:focus {
 
 .inlined{
     display: inline-block;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive!important;
+}
+
+.inlined1{
+    font-family: 'Comfortaa', cursive!important;
     font-size: 30px;
 }
 
