@@ -10,4 +10,3 @@ tl.fromTo('.tip', {opacity: 0}, {opacity: 1, duration: 0.1})
 tl.fromTo('.arrow', {opacity: 0}, {opacity: 1, duration: 0.1})
 tl.fromTo('.logo', {backgroundColor: "rgb(170, 170, 170)"}, {backgroundColor: "rgb(3, 154, 255)", duration: 0.00001})
 tl.fromTo('.logo', {boxShadow: "0 0px 0px rgb(1, 1, 1)"}, {    boxShadow: "0 0px 7px rgba(3, 154, 255)"})
-
