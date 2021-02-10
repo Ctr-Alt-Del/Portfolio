@@ -114,6 +114,17 @@ body, html{
     opacity: 0.8;
 }
 
+
+
+
+.margin{
+    margin-left: 70px;
+    padding: 0px 10px;
+}
+
+@media only screen and (max-device-width: 400px){
+
+}
 .sidenav a{
     padding: 6px 8px 6px 16px;
     font-size: 25px;
@@ -126,11 +137,6 @@ body, html{
     color: rgb(3, 188, 255);
     text-decoration: none;
     text-shadow: 0 1px 3px rgb(3, 154, 255); 
-}
-
-.margin{
-    margin-left: 70px;
-    padding: 0px 10px;
 }
 
 .about{
@@ -368,4 +374,61 @@ input[type=text]:focus {
 .proTitles:active{
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-device-width: 400px){
+    .sidenav{
+        height: auto;
+        display: inline-flex;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        padding-top: 20px;
+        opacity: 0.8;  
+    }
+    .fa-home{
+        font-size: 70px !important;
+    }
+    .fa-users{
+        font-size: 70px !important;
+        padding-left: 20px;
+    }
+    .fa-graduation-cap{
+        font-size: 70px !important;
+        padding-left: 20px;
+    }
+    .fa-laptop-code{
+        font-size: 70px !important;
+        padding-left: 20px;
+    }
+    .fa-address-card{
+        font-size: 70px !important;
+        padding-left: 20px;
+    }
+    .header{
+        margin-left: 0px;
+    }
+    .logo{
+        font-size: 65px;
+        height: 100px;
+        width: 100px;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+    .margin{
+        margin-left: 0px;
+        padding: 0px
+    }
+    .parallax{
+        background-size: 150%;
+    }
+    .namE{
+        font-size: 75px;
+        padding: 0 30px;
+        border-radius: 50px;
+    }
 }
