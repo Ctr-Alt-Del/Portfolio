@@ -1,3 +1,5 @@
+const { read } = require("fs");
+
 const checkpoint = 50;
  
 window.addEventListener("scroll", () => {
