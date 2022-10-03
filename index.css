@@ -334,6 +334,13 @@ input[type=text]:focus {
     z-index: 1;
 }
 
+.wordPress{
+    height: 180px;
+    width: 180px;
+    z-index: 1;
+}
+
+
 .position:hover{
     animation: pop .2s linear;
     transform: scale(1.2, 1.2) rotate(-20deg);
