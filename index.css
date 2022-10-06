@@ -111,7 +111,7 @@ body, html{
     background-color: white;
     overflow-x: hidden;
     padding-top: 20px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .margin{
@@ -139,31 +139,31 @@ body, html{
 .about{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .languages{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .services{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
+    opacity: 0.89;
 }
 
 .contact{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .education{
     background-color: white;
     padding: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .projects{
@@ -343,7 +343,7 @@ input[type=text]:focus {
 
 .position:hover{
     animation: pop .2s linear;
-    transform: scale(1.2, 1.2) rotate(-20deg);
+    transform: scale(1.2, 1.2);
     z-index: 10;
 }
 
@@ -352,7 +352,7 @@ input[type=text]:focus {
         transform: scale(1,1);
     }
     100% {
-        transform: scale(1.2, 1.2)rotate(-20deg);
+        transform: scale(1.2, 1.2);
     }
 }
 
